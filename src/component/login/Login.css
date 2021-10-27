@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card{
+    max-width:34%;
+    margin:5% auto;
+      font-size: 20px;
+     font-weight: 700;
+     box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+     padding: 20px;
+}
+
+
+.card .css-1nrlq1o-MuiFormControl-root{
+    width: 95%;
+    padding: 10px ;
+    margin-top: 7%;
+}
+.card .css-1wc848c-MuiFormHelperText-root{
+    margin-left: 0;
+    font-weight: 700;
+}
+.MuiCardContent-root.card.css-46bh2p-MuiCardContent-root {
+    padding: 0px;
+    
+}
+
+.btn{
+    text-align: center;
+}
+.btn button{
+    min-width: 40%;
+    padding: 10px ;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #4D6AF0;
+}
+
+.card .css-zow5z4-MuiGrid-root{
+    margin: 10px 40px;
+    padding-bottom: 30px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.card .css-zow5z4-MuiGrid-root a{
+    text-decoration: none;
+    color: #778EF7;
+}
+
+.eye{
+    position: absolute;
+    right: 2%;
+    bottom: 50%;
+    color: gray;
+    cursor: pointer;
+    z-index: 1;
+}
+
+  @media (max-width: 575.98px) { 
+       .card{
+        max-width: 90%;
+        margin-top: 40%;
+        margin-bottom: 40%;
+    }
+
+Button a{
+    text-decoration: none;
+    color: #638EF7;
+    display: none;
+    
+}
+
+.card .css-zow5z4-MuiGrid-root{
+    margin: 10px -10px;
+    padding-bottom: 30px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+ }
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .card{
+        max-width: 60%;
+        margin-top: 30%;
+        margin-bottom: 35%;
+    }
+    
+    Button a{
+        text-decoration: none;
+    }
+
+    .card .css-zow5z4-MuiGrid-root{
+        margin: 10px -10px;
+        padding-bottom: 30px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+   
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .card{
+        max-width: 50%;
+        margin-top: 20%;
+        margin-bottom: 20%;
+    }
+    Button a{
+        text-decoration: none;
+    }
+    .card .css-zow5z4-MuiGrid-root{
+        margin: 10px -10px;
+        padding-bottom: 30px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+   
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .card{
+        max-width: 40%;
+        margin-top: 13%;
+        margin-bottom: 13%;
+    }
+    .card .css-zow5z4-MuiGrid-root{
+        margin: 10px -10px;
+        padding-bottom: 30px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    Button a{
+        text-decoration: none;
+    }
+ }
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .card{
+        max-width: 35%;
+        margin-top: 6%;
+        margin-bottom: 6%;
+    }
+    Button a{
+        text-decoration: none;
+    }
+ }
