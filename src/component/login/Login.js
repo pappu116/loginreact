@@ -9,8 +9,6 @@ import VisibilityIcon from '@mui/icons-material/Visibility';
 const Login = (props) => {
     return (
         <div>
-            {/* <AppNav/> */}
-
             <CardContent className="card" >
               <AppBar style={{backgroundColor:"#4F6DF5"}} position="none">
                   <Toolbar>
@@ -24,7 +22,7 @@ const Login = (props) => {
          <FormControl>
             <Input id="my-input" aria-describedby="my-helper-text" placeholder="Username" />
             <FormHelperText id="my-helper-text">usernames are case-sensative</FormHelperText>
-            </FormControl>
+        </FormControl>
             <br />
             <FormControl>
             <VisibilityIcon className="eye"/>

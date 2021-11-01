@@ -21,7 +21,6 @@ const SignUp = (props) => {
               </AppBar>
              
          <form action="">
-
          <FormControl>
             <Input id="my-input" type="email" aria-describedby="my-helper-text" placeholder="Gmail" />
             <FormHelperText id="my-helper-text">Type Your Gmail</FormHelperText>
